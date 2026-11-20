@@ -258,7 +258,7 @@ sequenceDiagram
   participant B as Ngân hàng nhận tiền
   K->>W: Đặt hàng, Chuyển khoản QR
   W->>API: OrderCreate idempotency_key
-  API->>API: Kiểm tra giá, tồn kho, mã; trừ tồn kho
+  API->>API: Kiểm tra giá, tồn kho, mã, rồi trừ tồn kho
   API-->>W: order_id, CHO_THANH_TOAN, QR, hold 15 phút
   W->>K: SCR-10 QR, đếm ngược
   K->>B: Quét QR, chuyển tiền
