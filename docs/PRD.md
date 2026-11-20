@@ -669,8 +669,6 @@ AC02: Mỗi lần đổi trạng thái gửi SMS (và email nếu có).
 
 ## 10. Câu hỏi mở
 
-> Mọi câu hỏi dưới đây đã được PO chốt ngày 20/11/2026; quyết định ghi sau mỗi câu và đã cập nhật vào SRS.
-
 - Dùng tải thêm khi cuộn hay phân trang số? → **Đã chốt:** Tải thêm khi cuộn, tối đa 5 lần tự động; sau đó hiện nút "Xem thêm" để khách vẫn chạm được footer (SRS BR-03).
 - Có hiện sản phẩm hết hàng không? → **Đã chốt:** Có, nhưng xếp cuối và ghi "Hết hàng"; khi lọc "Chỉ còn hàng" thì ẩn (SRS BR-04).
 - Lọc nhiều size cùng lúc hoạt động thế nào? → **Đã chốt:** Còn hàng ở **ít nhất một** size đã chọn (SRS BR-05).
